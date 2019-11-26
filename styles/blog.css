@@ -1,0 +1,88 @@
+#not-active {
+    text-decoration: none;
+    color          : black;
+}
+
+.site-header {
+    border-top   : 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+    min-height   : 60px;
+    position     : relative;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.site-title {
+    float          : left;
+    padding-left   : 450px;
+    padding-top    : 15px;
+    margin-bottom  : 0;
+    font-family    : 'Roboto', sans-serif;
+    font-size      : 30px;
+    text-decoration: none;
+    color          : black;
+}
+
+.site-nav {
+    float        : right;
+    padding-right: 450px;
+    padding-top  : 27px;
+    font-family  : 'Roboto', sans-serif;
+
+}
+
+.site-nav ul {
+    margin    : 0;
+    padding   : 0;
+    list-style: none;
+}
+
+.site-nav li {
+    display: inline-block;
+    margin : 0
+}
+
+.icons {
+    width : 25px;
+    height: 25px;
+}
+
+/* TOOLTIP IN PROGRESS */
+
+/* TOOLTIP IN PROGRESS */
+
+.page-content {
+    height     : 700px;
+    margin-left: 450px;
+    margin-right:450px;
+    margin-top : 50px;
+}
+
+.blog-title {
+    font-family: 'Roboto', sans-serif;
+    font-size  : 20px;
+}
+
+.blog-date {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin-top: -5px;
+}
+
+.blog-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.site-footer {
+    border-top: 1px solid #e8e8e8;
+}
+
+
+
+body {
+    padding: 0;
+    margin : 0;
+}
