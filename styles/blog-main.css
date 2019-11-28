@@ -88,7 +88,7 @@ body {
     margin : 0;
 }
 
-@media (max-width: 600px) {
+@media (max-device-width: 400px) {
     .page-content {
         margin-left: 100px;
     }
@@ -124,7 +124,7 @@ body {
 
 @media (max-width: 800px) {
     .page-content {
-        margin-left: 100px;
+        margin-left: 55px;
     }
 
     .site-nav {
@@ -150,7 +150,7 @@ body {
     }
 
     .site-title {
-        padding-left: 100px;
+        padding-left: 55px;
         padding-top: 25px;
         font-size   : 15px;
     }
