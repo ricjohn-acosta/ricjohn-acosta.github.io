@@ -74,7 +74,7 @@
 .blog-content {
     font-family: 'Open Sans', sans-serif;
     font-size  : 20px;
-    margin-top: 5px;
+    margin-top : 5px;
 }
 
 .site-footer {
@@ -86,4 +86,72 @@
 body {
     padding: 0;
     margin : 0;
+}
+
+@media (max-width: 600px) {
+    .page-content {
+        margin-left: 100px;
+    }
+
+    .site-nav {
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+
+    .blog-title {
+        font-family: 'Roboto', sans-serif;
+        font-size  : 14px;
+    }
+
+    .blog-date {
+        font-family: 'Roboto', sans-serif;
+        font-size  : small;
+        margin-top : 19px;
+    }
+
+    .blog-content {
+        font-family: 'Open Sans', sans-serif;
+        font-size  : 14px;
+        margin-top : 5px;
+    }
+
+    .site-title {
+        padding-left: 100px;
+        padding-top: 25px;
+        font-size   : 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .page-content {
+        margin-left: 100px;
+    }
+
+    .site-nav {
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+
+    .blog-title {
+        font-family: 'Roboto', sans-serif;
+        font-size  : 14px;
+    }
+
+    .blog-date {
+        font-family: 'Roboto', sans-serif;
+        font-size  : small;
+        margin-top : 19px;
+    }
+
+    .blog-content {
+        font-family: 'Open Sans', sans-serif;
+        font-size  : 14px;
+        margin-top : 5px;
+    }
+
+    .site-title {
+        padding-left: 100px;
+        padding-top: 25px;
+        font-size   : 15px;
+    }
 }
